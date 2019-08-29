@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="895"
-  DTS:VersionGUID="{F9AA259C-0E86-4B5A-962E-8CAEBE6A6B05}">
+  DTS:VersionBuild="896"
+  DTS:VersionGUID="{317E27C6-60CD-40CB-922E-CA8A4BD96AFA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -87,7 +87,7 @@
           <ConnectionString>User Id=ssis;Host=rails-phoenix-staging.cp5tifogzin0.eu-west-1.rds.amazonaws.com;Database=rails;Persist Security Info=True</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAq5L0GWGvnz/Yami9DUBQYzkLJS3eUol3fONVnKSKqoAAAAAAOgAAAAAIAACAAAAAz8FWASIu2D6E2ovjwGIhSZ+hTqQ0Lb1fV+JA8KQK3MCAAAACIuYCVTwCMadXDx1zSNhwYCjQ50FGDMPkSTZU5nvi2OUAAAAAd/8wm4qIkshkAxN+T7xFOy6GsUgIdJC/0M7WwWTRPdd3ACrSFGyfKSES7i8EhyT18FuxNi3OoKwtHCwbjWX1T</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC+KPKGNgzukNuAd5tYg/nLhwQI5Z9PVnCnjagaRJ3zOQAAAAAOgAAAAAIAACAAAABdl2v3TUoUbtI7dVX9O+KSxsIdyj5SVlQWOEy1OvOFYSAAAAC4lCcoSKO2ucUL92FSuAAvbt9ezyukSwX1gGtzPc6AB0AAAACsjrz3jLJy2oXWrham3cCMa2yfq2lFY5vuMa9Z5KlqMbyFKnihPMMOvHyI5sdvHIneErxbXad35Vfc6y42182O</Password>
         </MySqlConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -275,10 +275,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=mschulman@2ugetsmarter.com.multicurr</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABhC2gVs5TyPPHx4lEMrk4vEqhA0HiIgGArdXnV/XvZ0QAAAAAOgAAAAAIAACAAAAAE+ldemu41gz7zFdLowPWQazAMrcwXodAg7wA8FxyCYTAAAAA6lZ4cjomUS1gdZeWNTOff47x+RIJF0mKfQsMYw7kafvKUnco6JmrEjnsSR2/lSYNAAAAAVDkYwYvjm9kTzZQSIRzN7u0ZJsjMKLlYiBIxFsDK8cof07OfhgNVMfQDz8RSd3ikKGDho7IHwHjbLA7mDXqWDg</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACH7NORymlNC3/Tx8LNKKSFTtnsD5fJEPh36AfkK4KQHwAAAAAOgAAAAAIAACAAAACGutpQkscDUBPKO01XKbJpARBBJrf7UGdcxFJtaONNTTAAAAAXFQmtAJfdOOqhGqy42ykiiY8ho4WbXON484PHVAzWktsN8/U/kgNAekvdy1gRQOBAAAAARyJ7APdLPdYzKWEXbN9GDEaWhrWFQOMCbCk8hkUEBdA69gFs3tpdHhOLrMn6VPlEQvJN1enq0a46MzbjdopU6g</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD3YeEmqM9SEmgGP+R+V76ivoNHtQNEjJDF+2aN725JqAAAAAAOgAAAAAIAACAAAAD/OgVlmYnvxO+HmqjSdu5e/YWUs50ufSwo9+G7eSc5CEAAAADks2Blc5X79JvfHgZ26XdL9rMDfUtX72GsFP2+mBgIbhApKYTn01nNEZ+7d3o5hP7HMzHR868bsoLtNAnbyfQyQAAAANUCme+KvdIiy2TJAO7WOE/72jSaLsgW31TAH68O4lxkj+oSvHKfWFyXfg2Kx/b9whvXLLCus9iQTKtA85o08lA</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABl6GYPQ7Lr2AMBNeiJgVChQz4hDHmstlmmWm302llvsQAAAAAOgAAAAAIAACAAAAC3Th1dWT3VyMD3FlPCIfuTIHsGj0jTeHI9eqJ5LJpDWEAAAAAbDQz4sndBXS8pj4C9NZNEeSieWfUibXVnwbH/ZvgZaIZAQu1GFxvHCeY8Q7G5c/9Xwlh/Lh5lVT8twcPbRU/3QAAAAKyX4iUeibVE3TreXH0qrUYzfEa3ysn7mY99sCjCSihoB2L6ABvymAuiibcmeUXzsn9YzFelGSmSrc/oFtCim5M</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -292,10 +292,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=integration@2ugetsmarter.com.uat</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACRtBtb6rU7neBpUOW0nkihf9Bj+QvXlBXQWPr14yc6WgAAAAAOgAAAAAIAACAAAABpiJ1gbGbD0XhXGvNiQtUd8n+I2OZefdU/eop6E42IsTAAAABHxiCHXsMdqkDsB0xLshZo/f99hRhXSt0pcM1L/iKi5I6YArWSghaICS1/LZUwLWlAAAAAxF4ryyXAhnIV4D6ZdYIbvm/mWzuDuVxYsVj+CFWW90VBrcQJ3uuRqwMCuiQIvZFxNoGgwfl8EBZOZ7JOV2dxEw</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAArLFT2pTe7PP/Vr7hq+7CBaPmRVTI4PX/zCOs8W4X7PwAAAAAOgAAAAAIAACAAAAAvI6FHxehkJLuyHTv1Qk++/qkPQjmR30dUJ16e06O1ADAAAAAPoXlvYtu++ksFu7KPIcteHml4karxkyoEKazH7Xo72YreAIbJOM2i3f+ZcWJ2yhJAAAAAW5FeiDyMbwLzT6MEDjGGnftfLBrscg5AmQm+QdIgrW8EdFoqDwk1AWsE+2M8nH+GP/5EMafOjIJKbtUXiKtHDw</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADzr78GP6Vm8zyZC/uT1ujnsgLRPwNBaa2L0/kIdpUU8wAAAAAOgAAAAAIAACAAAADThXXriLuWkhcNOqpGtAnrZzmm6cPtmPQKorHM5JBP40AAAADnzwcERG16yqt1ZffW+zJMMgm+l3a2AUQdsnj1+iXin113KzHWKsa7gUtslAPmkVIOlZJvgcjs+4Bt7zUkXaGNQAAAACjEnpAyc7NbfIzkQFVBm2ICyN9i3f3tvl6UtdyVZJY5lC+k+FpPVzNAQHOEBuopjrT/98iLy4HQKWUHiQ9lMzM</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABZRT4g7VjhGDSz/RQSkpoBJIC0EdsUAxhsN2Nq8APBoQAAAAAOgAAAAAIAACAAAAB9X7MJrH9hQdNj0sxMZ6VWC7exFYF2k1Wi/L0fIXXJ7kAAAAApesacDk4M0f7GEtzHPpI1suxdST1i6CLr3QXeNPGEyZiDAbANvI5BMQZy5j/39ZbhqfzQx7/5OwnX2ujuMM9oQAAAAETR0BLq3RHwFXEECfGHGwCfdKp7SNSIHexfyIgejoPUKSkIzZBJRoKmBsCviAvIODZ3nJc1dfqD9KnFuQ7lWiI</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -335,7 +335,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="batch">
       <DTS:VariableValue
-        DTS:DataType="8">Replication Batch - 2019-08-29 11:29:17</DTS:VariableValue>
+        DTS:DataType="8">Replication Batch - 2019-08-29 11:35:39</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -346,7 +346,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="datetest">
       <DTS:VariableValue
-        DTS:DataType="7">8/27/2019 11:29:18 AM</DTS:VariableValue>
+        DTS:DataType="7">8/27/2019 11:35:40 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -374,6 +374,79 @@
         <pipeline
           version="1">
           <components>
+            <component
+              refId="Package\Data Flow Task\ADO NET Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET Source"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\ADO NET Source.Connections[IDbConnection]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <externalMetadataColumns
+                    isUsed="True" />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
             <component
               refId="Package\Data Flow Task\Derived Column"
               componentClassID="Microsoft.DerivedColumn"
@@ -22743,6 +22816,10 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Data Flow Task\ADO NET Source"
+          TopLeft="725,196" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
