@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="895"
-  DTS:VersionGUID="{1A528296-B2D1-4AA9-BB5D-8A1FBCC58FA7}">
+  DTS:VersionBuild="896"
+  DTS:VersionGUID="{AE005F78-5A3A-4B13-B44F-42DCFF54BC4A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -87,7 +87,7 @@
           <ConnectionString>User Id=ssis;Host=rails-phoenix-staging.cp5tifogzin0.eu-west-1.rds.amazonaws.com;Database=rails;Persist Security Info=True</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABt+X4uvG5aE7XFRWZirt2ePqSSDx6q/S3WQLw/8Q1RCgAAAAAOgAAAAAIAACAAAAAf4CZJSIeabWqcymmN5da08Q71+NgMavZvibeLAWW9NyAAAADBqa1VhL2vLnlw/RVlmXdMEQS95SY5I5T+/AmfuQRPB0AAAAD9WSYa+8DX02pAotYcMKHVpOjmIwVFLC5H8rv5HdiMYr6oovovbxL97HPeLJbde5a2KHQUe3MYvcdfd+d2di1W</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOaxkeaRECR0hCOXCZlPI9VrAw36wA9Z8zYtvftrB+LwAAAAAOgAAAAAIAACAAAAA0AyfexoEiu8D9dSXiISDsGceC+Pou+o9e6h75FfR2KSAAAAC3p6ohCXGRbqR7rSZbM9AfUALjKsaSWOeTDbCe1bv2PkAAAADaduuc8wuI8B8JzpBzn9PFiJHxTK/OYGS+ksvndM+zZG2WSpzbxeD9X74YHc9fzgxSSi+AvxVOmSPRPyUV6KBv</Password>
         </MySqlConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -275,10 +275,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=mschulman@2ugetsmarter.com.multicurr</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADxMWdTXB4+tzV/5uoGM3EJjSZGiXL5x2aRiKvuHXzZRQAAAAAOgAAAAAIAACAAAAADsCULpqA3z0fHyPYLbggA6Us4HsmorxPf9X4ogJTJBTAAAAA4b57FDIJeTlAfKzBjFPI2BH9fl8ZzDDWLJk2ffqxbuXxb0gw5LsPZRfp0xbZww0hAAAAAzxdl0alSU5mc2Hoz9mI+qMAIhUu3UCZ41SNlmeGBkwniHx26Pt+tS9FsQKs3sB8r9jlOYgg1Ycxrn+yLiBn2Mg</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACv4THS4nY7xQDZtpca+YW0j37sDpU0gOtgO4sR0LTy7gAAAAAOgAAAAAIAACAAAACyxDrmNAbDV95Tr7BMEt54oPIPdam6NLlIEIP6+bZ+tDAAAAAGFu47qLQP/vr9naeJ2NvVbe2DVuDURgzkP6ad+d5sOkaTVbzseQ5g0OyMSV/NMSxAAAAA3txyrcwBBpMDdZtCAlZjOuVhoj3+kweOSaLcMEbDSoVwoio47RagTr9KxCR03fUfbRDq1YS1cKF+xpAKJhIrkA</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADx2d7SAGg3vfQuvfdwu4Mfd+ReQDGKhbl+54JBNORSTQAAAAAOgAAAAAIAACAAAADIClcSiW7cIraDO4aTIZ6fCdzq0OXIvYzMy6MWczYWTUAAAADcsArAzZVyiRsBrfcJ3iigdcHX2nViqAvDoFE1DRPeVU+uBny9tkFtJA7ELB5zibE4q8FkQqTylcM403cwwYtjQAAAABPe9VwnmQ3lfv2+Hog3b+aTvHlV3LPYh1flO6pxOY69Md1Pcz1t79HhUc1RbBtKkH30sfrVEWSIYkTYrimCowo</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACEcroSIMOdGqtrNRHl2rzYXuBLioaaPExP9YrMJW8aPwAAAAAOgAAAAAIAACAAAAB9EMh2VWLsUppy9khEzybeKr7gNKdBkk9tecZnqV3+bUAAAADVCWsBYOq68LpOd9atGnXp0OdHDDq754a6Cg8+pleeJ+jbO6b3DQGQs2LI3OGxE+D9LzHaOUguLBB3AllGpoSgQAAAAGNRXIUZl1biGdfvS2TzLK65rxUv5KXhK1ahFIhG4zoO0GjNBzZJLIOa+yjylGsfPpEVcr54BjDwoxkgZXr6oM4</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -292,10 +292,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=integration@2ugetsmarter.com.uat</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAApO8UVpIWOdY6bWEQDKapDTtLn+loZ3vCmrzDuQTgY/wAAAAAOgAAAAAIAACAAAADy3Ukf85lAhKWVRgAOwAelh/k0YK7vfA25mDNJZ1OP2jAAAAD3FO986YcDJyuqQFmbCwMID24ATSoBfbo9Hy3ExnT/y+yQ0xyWNvJGiUyHq1qzfv1AAAAAhYGRDvUqjVCJS2CfVwfnqXzU7RNuFFoGybazRMpPQ5IDDK9miueGe818RO5b7LRK8loErasaUjNRFtPaFb/Neg</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+veV2P3hO7QRK+gK/TI6ZFgKWu/THnZk3dZgZ4sOBIgAAAAAOgAAAAAIAACAAAAAP5EMxCHJHfoFoLuWpT0vqjI5zS+URZANj5q8Smy0JZTAAAADseoce8EPJPe/0ZL3orzEwEA1EfhgqVS9JOB6jHcpiKD9rpIWVX/Dh99Ajxw9aKjhAAAAACjmQrhmAmcue2kj40esfyN1+IfnVC30uZt/dylrdaUP4NJOupdm9c808dMbjmqVBbb42lMcR/oK+hYsfPeMlEw</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKQmmwS71sI6FiPrlyDGVP9Noniyy/mvsw0l04Xg9xcQAAAAAOgAAAAAIAACAAAABDKlQW5xxllDRMi3aiS6XrLsLqOq99Wxv0EZFtFHpAokAAAAAFxsRlFbquT2xS4qLFmXieS98liLwfueuHXDjcXrxf3n3IGZjjNq1B7UOoAj7CnNBOkg2z/abtOXJrDMK0oE30QAAAABoEinmoW5NXdEb81OsUTQpAlOTOiZcQ78WLW3tQIhd3LAsfZg0q0mBJLJaW7a9Bp/8dGvmzNfynXqA/zhQ/HoA</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACf8B5+PDlnu018VYarEYezfdDZxcW++KZptt4XqpO84wAAAAAOgAAAAAIAACAAAAAuopWuneL65wqwyh0T5EwYDntxHrSmtGtUz27aQO3MEkAAAADXE/Z7HTSk/2p+qc8EZ2O3jFqPN/5CY2YIz+7+t92T8vLCouT9D/fK0p+V2e+MRja+guscqcOr6FkdQa+FdNhFQAAAAIV2edW2k+xOFwvxpLCZkKn3WXMlfA7WwP8ovPrPyy8il2+EEKLUYNas2eGk09qk5yaPhxM75JbahRBNv0xwQ20</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -335,7 +335,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="batch">
       <DTS:VariableValue
-        DTS:DataType="8">Replication Batch - 2019-09-02 11:27:17</DTS:VariableValue>
+        DTS:DataType="8">Replication Batch - 2019-09-04 15:26:57</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -346,7 +346,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="datetest">
       <DTS:VariableValue
-        DTS:DataType="7">8/31/2019 11:27:17 AM</DTS:VariableValue>
+        DTS:DataType="7">9/2/2019 3:26:58 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1980,6 +1980,55 @@
                       dataType="bool"
                       name="Do_Not_SMS__c" />
                   </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Devart Salesforce Source 1"
+              componentClassID="Microsoft.ManagedComponentHost"
+              description="Extracts data from the Salesforce."
+              name="Devart Salesforce Source 1">
+              <properties>
+                <property
+                  dataType="System.Null"
+                  name="DesignObject"
+                  typeConverter="NOTBROWSABLE" />
+                <property
+                  dataType="System.Null"
+                  description="Specifies the SQL statement used by the component to extract data from Salesforce.com."
+                  name="SelectStatement" />
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows to be retrieved as a batch. The maximum is 2000. Default value is 500."
+                  name="BatchSize">500</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Including the deleted records in the result."
+                  name="IncludeDeleted">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether to use optimizations for retrieving large amount of data. If True, provider tries to apply ORDER BY and LIMIT to get parts of result set step by step to avoid possible timeouts. Default value is False."
+                  name="OptimizeQuery">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Use Bulk API to query large data sets and reduce the number of API requests."
+                  name="BulkQuery">false</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Devart.SSIS.Salesforce.SalesforceSource, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Devart Salesforce Source 1.Connections[SalesforceConnectionManager]"
+                  description="Devart Connection Manager for Salesforce connections"
+                  name="SalesforceConnectionManager" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Devart Salesforce Source 1.Outputs[Source Output]"
+                  name="Source Output">
+                  <externalMetadataColumns
+                    isUsed="True" />
                 </output>
               </outputs>
             </component>
@@ -10737,9 +10786,9 @@ where [refTable].[Salutation] = ?</property>
                   startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Load data into Phoenix 1.Outputs[Error Output]" />
                 <path
                   refId="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output2]"
-                  endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Highest Level Of Education.Inputs[Lookup Input]"
+                  endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Gender.Inputs[Lookup Input]"
                   name="Lookup Match Output"
-                  startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Gender.Outputs[Lookup Match Output]" />
+                  startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Salutation.Outputs[Lookup Match Output]" />
                 <path
                   refId="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output1]"
                   endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Set Phoenix replicated from SF to TRUE (1).Inputs[Derived Column Input]"
@@ -10747,9 +10796,9 @@ where [refTable].[Salutation] = ?</property>
                   startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Highest Level Of Education.Outputs[Lookup Match Output]" />
                 <path
                   refId="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output]"
-                  endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Gender.Inputs[Lookup Input]"
+                  endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Highest Level Of Education.Inputs[Lookup Input]"
                   name="Lookup Match Output"
-                  startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Salutation.Outputs[Lookup Match Output]" />
+                  startId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Lookup Gender.Outputs[Lookup Match Output]" />
                 <path
                   refId="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup No Match Output]"
                   endId="Package\Sequence Container 2\SF to Phoenix Person Data Sync\Gender Lookup Failed.Inputs[Derived Column Input]"
@@ -22296,84 +22345,84 @@ where [refTable].[id] = ?</property>
                   startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\IF NULL OR BLANK Don't Report Error.Outputs[Country Residence Is Not Null]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output11]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Title failure into SS Error Log.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Title Lookup Failed.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output10]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\IF NULL OR BLANK Don't Report Error.Inputs[Conditional Split Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add Name Column.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output9]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Format Phoenix updated_at.Inputs[Derived Column Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Replicated From Phoenix is TRUE.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output8]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\(SF LastModifiedDate &lt; Phoenix updated_at) OR (Phoenix_People_Created_At__c IS NULL)?.Inputs[Conditional Split Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Get CurrentDate, Source and Destination system;Format SF ModifiedDate.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output7]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Verification failure into SS Error Log.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Verification Lookup Failed.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output6]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Population_Group failure into SS Error Log.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Population_Group Lookup Failed.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output3]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load country of residence failure into SS Error Log.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Country Lookup Failed.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output4]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Country Name.Inputs[Lookup Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Upper country of residence code.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output2]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\country_res is NULL or BLANK.Inputs[Conditional Split Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add system fields.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output1]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add system fields.Inputs[Derived Column Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Format Phoenix updated_at.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Gender failure into SS Error Log.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Gender Lookup Failed.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output5]"
                   endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Upper country of residence code.Inputs[Derived Column Input]"
                   name="Derived Column Output"
                   startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\GDPR Value Mappings.Outputs[Derived Column Output]" />
                 <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output10]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Gender failure into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Gender Lookup Failed.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output9]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add system fields.Inputs[Derived Column Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Format Phoenix updated_at.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output8]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\country_res is NULL or BLANK.Inputs[Conditional Split Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add system fields.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output7]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Country Name.Inputs[Lookup Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Upper country of residence code.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output6]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load country of residence failure into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Country Lookup Failed.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output3]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\(SF LastModifiedDate &lt; Phoenix updated_at) OR (Phoenix_People_Created_At__c IS NULL)?.Inputs[Conditional Split Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Get CurrentDate, Source and Destination system;Format SF ModifiedDate.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output4]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Verification failure into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Verification Lookup Failed.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output2]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Format Phoenix updated_at.Inputs[Derived Column Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Replicated From Phoenix is TRUE.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output1]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\IF NULL OR BLANK Don't Report Error.Inputs[Conditional Split Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add Name Column.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Title failure into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Title Lookup Failed.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output5]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load Population_Group failure into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Population_Group Lookup Failed.Outputs[Derived Column Output]" />
+                <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output3]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log.Inputs[OLE DB Destination Input]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log 2.Inputs[OLE DB Destination Input]"
                   name="Error Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce.Outputs[Error Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce 1.Outputs[Error Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output2]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log 1.Inputs[OLE DB Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce 2.Outputs[Error Output]" />
-                <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output1]"
                   endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log 1 1.Inputs[OLE DB Destination Input]"
                   name="Error Output"
                   startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce 2 1.Outputs[Error Output]" />
                 <path
-                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log 2.Inputs[OLE DB Destination Input]"
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output1]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log 1.Inputs[OLE DB Destination Input]"
                   name="Error Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce 1.Outputs[Error Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce 2.Outputs[Error Output]" />
+                <path
+                  refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load records into SS Error Log.Inputs[OLE DB Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Load data into Salesforce.Outputs[Error Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Is NULL]"
                   endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Merge Datasets.Inputs[Merge Input 1]"
@@ -22406,14 +22455,14 @@ where [refTable].[id] = ?</property>
                   startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Country Name.Outputs[Lookup Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output4]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Population_Group Lookup Failed.Inputs[Derived Column Input]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Verification Lookup Failed.Inputs[Derived Column Input]"
                   name="Lookup No Match Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Population_Group.Outputs[Lookup No Match Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Verification.Outputs[Lookup No Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output3]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add Name Column.Inputs[Derived Column Input]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Title Lookup Failed.Inputs[Derived Column Input]"
                   name="Lookup No Match Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Country Name.Outputs[Lookup No Match Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Title.Outputs[Lookup No Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output2]"
                   endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Gender Lookup Failed.Inputs[Derived Column Input]"
@@ -22421,14 +22470,14 @@ where [refTable].[id] = ?</property>
                   startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Gender.Outputs[Lookup No Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output1]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Title Lookup Failed.Inputs[Derived Column Input]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Add Name Column.Inputs[Derived Column Input]"
                   name="Lookup No Match Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Title.Outputs[Lookup No Match Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Country Name.Outputs[Lookup No Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output]"
-                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Verification Lookup Failed.Inputs[Derived Column Input]"
+                  endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Population_Group Lookup Failed.Inputs[Derived Column Input]"
                   name="Lookup No Match Output"
-                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Verification.Outputs[Lookup No Match Output]" />
+                  startId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Lookup Population_Group.Outputs[Lookup No Match Output]" />
                 <path
                   refId="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Merge Join Output]"
                   endId="Package\Sequence Container 3\Phoenix to SF Person Data Sync\Get CurrentDate, Source and Destination system;Format SF ModifiedDate.Inputs[Derived Column Input]"
@@ -22652,40 +22701,6 @@ where [refTable].[id] = ?</property>
           Id="Package\Data Flow Task\Derived Column"
           TopLeft="346,238" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Source Output]"
-          TopLeft="515.5,150">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-92.5,88"
-              Start="0,0"
-              End="-92.5,80.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40"
-                    Point2="0,44"
-                    Point3="-4,44" />
-                  <mssgle:LineSegment
-                    End="-88.5,44" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-88.5,44"
-                    Point2="-92.5,44"
-                    Point3="-92.5,48" />
-                  <mssgle:LineSegment
-                    End="-92.5,80.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Data Flow Task.Paths[RecordId Output]"
           TopLeft="430,365">
           <EdgeLayout.Curve>
@@ -22743,6 +22758,44 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Source Output]"
+          TopLeft="515.5,150">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.5,88"
+              Start="0,0"
+              End="-92.5,80.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40"
+                    Point2="0,44"
+                    Point3="-4,44" />
+                  <mssgle:LineSegment
+                    End="-88.5,44" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.5,44"
+                    Point2="-92.5,44"
+                    Point3="-92.5,48" />
+                  <mssgle:LineSegment
+                    End="-92.5,80.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Data Flow Task\Devart Salesforce Source 1"
+          TopLeft="819,157" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -23657,7 +23710,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output]"
+          Id="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output2]"
           TopLeft="773.5,727">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -23729,7 +23782,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output2]"
+          Id="Package\Sequence Container 2\SF to Phoenix Person Data Sync.Paths[Lookup Match Output]"
           TopLeft="873,840">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24539,7 +24592,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output4]"
           TopLeft="1077,812">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24563,7 +24616,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output1]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output3]"
           TopLeft="861,566.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24611,7 +24664,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output3]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output1]"
           TopLeft="1101,1029">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24635,7 +24688,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output4]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Lookup No Match Output]"
           TopLeft="1003,729.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24875,7 +24928,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output3]"
           TopLeft="1357,1704">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24911,7 +24964,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output1]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output2]"
           TopLeft="534.5,1708">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24935,7 +24988,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output2]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output1]"
           TopLeft="790.75,1702">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24959,7 +25012,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output3]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Error Output]"
           TopLeft="1092,1697">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -24995,7 +25048,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output1]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output9]"
           TopLeft="1032.5,1317">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25017,7 +25070,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output2]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output8]"
           TopLeft="1035.5,1400">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25051,7 +25104,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output3]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output6]"
           TopLeft="373,1032.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25073,7 +25126,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output5]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output11]"
           TopLeft="1151.5,906">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25107,7 +25160,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output4]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output7]"
           TopLeft="1192,983">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25129,7 +25182,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output10]"
           TopLeft="533,643">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25151,7 +25204,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output10]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output1]"
           TopLeft="889,1031">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25173,7 +25226,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output7]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output4]"
           TopLeft="544,810">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25195,7 +25248,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output11]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output]"
           TopLeft="526,565.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25217,7 +25270,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output6]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output5]"
           TopLeft="536,727.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25239,7 +25292,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output8]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output3]"
           TopLeft="895.5,386">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25273,7 +25326,7 @@ where [refTable].[id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output9]"
+          Id="Package\Sequence Container 3\Phoenix to SF Person Data Sync.Paths[Derived Column Output2]"
           TopLeft="1029.5,1241">
           <EdgeLayout.Curve>
             <mssgle:Curve
