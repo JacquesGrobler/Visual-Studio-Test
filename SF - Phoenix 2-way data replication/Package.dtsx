@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="896"
-  DTS:VersionGUID="{AE005F78-5A3A-4B13-B44F-42DCFF54BC4A}">
+  DTS:VersionBuild="897"
+  DTS:VersionGUID="{2E9FE82A-5568-4CF3-979B-B06A7DC8968C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -87,7 +87,7 @@
           <ConnectionString>User Id=ssis;Host=rails-phoenix-staging.cp5tifogzin0.eu-west-1.rds.amazonaws.com;Database=rails;Persist Security Info=True</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOaxkeaRECR0hCOXCZlPI9VrAw36wA9Z8zYtvftrB+LwAAAAAOgAAAAAIAACAAAAA0AyfexoEiu8D9dSXiISDsGceC+Pou+o9e6h75FfR2KSAAAAC3p6ohCXGRbqR7rSZbM9AfUALjKsaSWOeTDbCe1bv2PkAAAADaduuc8wuI8B8JzpBzn9PFiJHxTK/OYGS+ksvndM+zZG2WSpzbxeD9X74YHc9fzgxSSi+AvxVOmSPRPyUV6KBv</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB8YAy9HgECSw9WzHA23/kZOP3Q/H9uL03rYiBDWfP0+AAAAAAOgAAAAAIAACAAAAAcM9PUTuqQ7oAIUz86sC39h+UxYMrk0Q8Beq0H8gW2DyAAAACQUQ3MQcfIP7RxjYm66rw3rAb/1HmRFxyWd9lcLN36pkAAAAAXyMoTS4QT+MwcSMgOxIPKf3yaHXlLgx/TJFJpy9htO1d0BRWqh08fE48KO+3Sy6eb5j8r+HpsMipw5ZQvTzcD</Password>
         </MySqlConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -275,10 +275,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=mschulman@2ugetsmarter.com.multicurr</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACv4THS4nY7xQDZtpca+YW0j37sDpU0gOtgO4sR0LTy7gAAAAAOgAAAAAIAACAAAACyxDrmNAbDV95Tr7BMEt54oPIPdam6NLlIEIP6+bZ+tDAAAAAGFu47qLQP/vr9naeJ2NvVbe2DVuDURgzkP6ad+d5sOkaTVbzseQ5g0OyMSV/NMSxAAAAA3txyrcwBBpMDdZtCAlZjOuVhoj3+kweOSaLcMEbDSoVwoio47RagTr9KxCR03fUfbRDq1YS1cKF+xpAKJhIrkA</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACR+IXqw3T1G62uTW/knJtdlplfjIK3ej0B/cY2l3UAUwAAAAAOgAAAAAIAACAAAAAQQW2TvmR4wg8FOsXme7EgVFTILo+Op67Mem6Rqm55MzAAAADsRzX6kELBMZ1nOJV27ajGMW9QerTmhtbifsoobVm7gYhR4de3eADzCnJA7z+28RFAAAAAVyloM7L0VExFGIo+xRd9JcaoqD8EfBqodjSl55qSRdiiTeVP7t09eiGqhcslxm5aBqi83po6WDQAJiPRjI9y1Q</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACEcroSIMOdGqtrNRHl2rzYXuBLioaaPExP9YrMJW8aPwAAAAAOgAAAAAIAACAAAAB9EMh2VWLsUppy9khEzybeKr7gNKdBkk9tecZnqV3+bUAAAADVCWsBYOq68LpOd9atGnXp0OdHDDq754a6Cg8+pleeJ+jbO6b3DQGQs2LI3OGxE+D9LzHaOUguLBB3AllGpoSgQAAAAGNRXIUZl1biGdfvS2TzLK65rxUv5KXhK1ahFIhG4zoO0GjNBzZJLIOa+yjylGsfPpEVcr54BjDwoxkgZXr6oM4</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADz9h5e9QgnLm6nUm5g61yKhZcENSXHeT+25m4s1YNe4gAAAAAOgAAAAAIAACAAAAC6AVeGxuDyU56RcO/oLTRPhVx3AjV1WbcJx8vXX4o3xkAAAACt8S8nu9/nLOaGckBujw+8if2om06tYeEtNyFvUj/kByW0RrtEs8MgHIkXoHQNMNgOfNjOuAE7dUdf6cwvDGcjQAAAAJdTTBCOhI/WJZ6E+2JNvLyxmJdc5h2pAy/8zBm9dE1MwcME2qSfBe0eCHgEt9CzKQa/5MrOWntzGXoq0XDmul8</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -292,10 +292,10 @@
           <ConnectionString>Host=test.salesforce.com;User Id=integration@2ugetsmarter.com.uat</ConnectionString>
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+veV2P3hO7QRK+gK/TI6ZFgKWu/THnZk3dZgZ4sOBIgAAAAAOgAAAAAIAACAAAAAP5EMxCHJHfoFoLuWpT0vqjI5zS+URZANj5q8Smy0JZTAAAADseoce8EPJPe/0ZL3orzEwEA1EfhgqVS9JOB6jHcpiKD9rpIWVX/Dh99Ajxw9aKjhAAAAACjmQrhmAmcue2kj40esfyN1+IfnVC30uZt/dylrdaUP4NJOupdm9c808dMbjmqVBbb42lMcR/oK+hYsfPeMlEw</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADrv1BL+Yd6BnhBxLTXdazAozgv+yyEQjZcvY1+ylq5iAAAAAAOgAAAAAIAACAAAAAc8cVYizHooYo/iywn5e8gUZtiM4YWccY92WbfNOu7VDAAAACjOvfPww8DROuxtP63nJ2jsTGR1HvMzGZcRt4Vn6E/63F3rjfsUEAJjuVQcJ5eeGhAAAAANzn7vpd/zbTo64mN3WZMhYBoQw2tLrZJS3twRG6l8gJTZKYL+DWx59vLus/VxbGML6NMxjTQ6Ud5u6ShKUtFWw</Password>
           <SecurityToken
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACf8B5+PDlnu018VYarEYezfdDZxcW++KZptt4XqpO84wAAAAAOgAAAAAIAACAAAAAuopWuneL65wqwyh0T5EwYDntxHrSmtGtUz27aQO3MEkAAAADXE/Z7HTSk/2p+qc8EZ2O3jFqPN/5CY2YIz+7+t92T8vLCouT9D/fK0p+V2e+MRja+guscqcOr6FkdQa+FdNhFQAAAAIV2edW2k+xOFwvxpLCZkKn3WXMlfA7WwP8ovPrPyy8il2+EEKLUYNas2eGk09qk5yaPhxM75JbahRBNv0xwQ20</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcvIXFuUULEG1BRbVcvCs/QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADMZRmS3L6XXhvX5J1We9JqQkz3TVgmRe6wisXgoi7lZQAAAAAOgAAAAAIAACAAAAAh17E3vvrw5sb6rduyKHBkE1GjwOr07mfikRSoHMvxJkAAAAC5HBazof0pqe/NRNwkgIbN+Pi8kVTPVFwj5nTUEs1EYrS+MvLwb9mZHaQoH8XVQSx0cHbWrX7HQIy3uZ8WrXi9QAAAAJh46W3t6y005YM0afx0WvMaqk7QLgEbtl7R9UBBY/IqEl9ndkAl9wT62TU0sZtKygcCJNkl2arobow9IuC67SU</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -335,7 +335,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="batch">
       <DTS:VariableValue
-        DTS:DataType="8">Replication Batch - 2019-09-04 15:26:57</DTS:VariableValue>
+        DTS:DataType="8">Replication Batch - 2019-09-04 15:34:23</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -346,7 +346,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="datetest">
       <DTS:VariableValue
-        DTS:DataType="7">9/2/2019 3:26:58 PM</DTS:VariableValue>
+        DTS:DataType="7">9/2/2019 3:34:24 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1980,55 +1980,6 @@
                       dataType="bool"
                       name="Do_Not_SMS__c" />
                   </externalMetadataColumns>
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Devart Salesforce Source 1"
-              componentClassID="Microsoft.ManagedComponentHost"
-              description="Extracts data from the Salesforce."
-              name="Devart Salesforce Source 1">
-              <properties>
-                <property
-                  dataType="System.Null"
-                  name="DesignObject"
-                  typeConverter="NOTBROWSABLE" />
-                <property
-                  dataType="System.Null"
-                  description="Specifies the SQL statement used by the component to extract data from Salesforce.com."
-                  name="SelectStatement" />
-                <property
-                  dataType="System.Int32"
-                  description="Specify the number of rows to be retrieved as a batch. The maximum is 2000. Default value is 500."
-                  name="BatchSize">500</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Including the deleted records in the result."
-                  name="IncludeDeleted">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines whether to use optimizations for retrieving large amount of data. If True, provider tries to apply ORDER BY and LIMIT to get parts of result set step by step to avoid possible timeouts. Default value is False."
-                  name="OptimizeQuery">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Use Bulk API to query large data sets and reduce the number of API requests."
-                  name="BulkQuery">false</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Devart.SSIS.Salesforce.SalesforceSource, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Devart Salesforce Source 1.Connections[SalesforceConnectionManager]"
-                  description="Devart Connection Manager for Salesforce connections"
-                  name="SalesforceConnectionManager" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Devart Salesforce Source 1.Outputs[Source Output]"
-                  name="Source Output">
-                  <externalMetadataColumns
-                    isUsed="True" />
                 </output>
               </outputs>
             </component>
@@ -22792,10 +22743,6 @@ where [refTable].[id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="206,42"
-          Id="Package\Data Flow Task\Devart Salesforce Source 1"
-          TopLeft="819,157" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
