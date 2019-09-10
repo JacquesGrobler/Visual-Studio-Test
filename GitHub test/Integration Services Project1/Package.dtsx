@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{6BF8D034-19FE-4CF3-B6E4-4F67C083CA2E}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{C86A451A-3F17-476C-A825-C17388875BCD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -28,7 +28,125 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <pipeline
-          version="1" />
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task\Devart Salesforce Destination"
+              componentClassID="Microsoft.ManagedComponentHost"
+              description="Loads or modifies data into an object of the Salesforce."
+              name="Devart Salesforce Destination"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Null"
+                  name="DesignObject"
+                  typeConverter="NOTBROWSABLE" />
+                <property
+                  dataType="System.Null"
+                  description="The name of the CRM object to copy data into."
+                  name="ObjectName"
+                  typeConverter="Devart.SSIS.Common.Design.TablesListConverter, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701" />
+                <property
+                  dataType="System.Int32"
+                  description="Destination action"
+                  name="Action"
+                  typeConverter="Devart.SSIS.SqlShim.DestinationAction, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The max number of records loaded in one batch. Ignored for some cloud sources."
+                  name="BatchSize">5000</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the max size of local buffer."
+                  name="BufferSize">10485760</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies external identifier field."
+                  expressionType="Notify"
+                  name="ExternalId"
+                  typeConverter="NOTBROWSABLE" />
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether to use Bulk API or SOAP API."
+                  name="UseBulkApi">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether multiple batches associated with a bulk load operation are processed by Salesforce in parallel or one at a time. The default is true."
+                  name="ParallelBatchProcessing">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the ID of a specific assignment rule to run for the Case or Lead."
+                  name="Assignment Rule Id" />
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Devart.SSIS.Salesforce.SalesforceDestination, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Devart Salesforce Destination.Connections[SalesforceConnectionManager]"
+                  description="Devart Connection Manager for Salesforce connections"
+                  name="SalesforceConnectionManager" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Devart Salesforce Destination.Inputs[input]"
+                  errorOrTruncationOperation="Insert operation"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="input">
+                  <externalMetadataColumns
+                    isUsed="True" />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Error Output"
+                  synchronousInputId="Package\Data Flow Task\Devart Salesforce Destination.Inputs[input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorDescription]"
+                      dataType="wstr"
+                      length="1024"
+                      lineageId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[Error Output].Columns[ErrorDescription]"
+                      name="ErrorDescription" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[RecordId Output]"
+                  exclusionGroup="1"
+                  name="RecordId Output"
+                  synchronousInputId="Package\Data Flow Task\Devart Salesforce Destination.Inputs[input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[RecordId Output].Columns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Data Flow Task\Devart Salesforce Destination.Outputs[RecordId Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+        </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -58,20 +176,8 @@
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="218,42"
-          Id="2"
-          TopLeft="729,131" />
-        <NodeLayout
-          Size="197,42"
-          Id="40"
-          TopLeft="517,140" />
-        <NodeLayout
-          Size="227,42"
-          Id="21"
-          TopLeft="403,175" />
-        <NodeLayout
-          Size="206,42"
-          Id="50"
-          TopLeft="789,245" />
+          Id="Package\Data Flow Task\Devart Salesforce Destination"
+          TopLeft="509,94" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
