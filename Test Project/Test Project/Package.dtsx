@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{292C1F43-E59C-472A-85E4-3EFC2AACA4BB}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{01D58B34-B3B3-4F90-8835-08FF3F3CC629}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -145,6 +145,55 @@
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Data Flow Task\Devart Salesforce Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              description="Extracts data from the Salesforce."
+              name="Devart Salesforce Source">
+              <properties>
+                <property
+                  dataType="System.Null"
+                  name="DesignObject"
+                  typeConverter="NOTBROWSABLE" />
+                <property
+                  dataType="System.Null"
+                  description="Specifies the SQL statement used by the component to extract data from Salesforce.com."
+                  name="SelectStatement" />
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows to be retrieved as a batch. The maximum is 2000. Default value is 500."
+                  name="BatchSize">500</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Including the deleted records in the result."
+                  name="IncludeDeleted">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether to use optimizations for retrieving large amount of data. If True, provider tries to apply ORDER BY and LIMIT to get parts of result set step by step to avoid possible timeouts. Default value is False."
+                  name="OptimizeQuery">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Use Bulk API to query large data sets and reduce the number of API requests."
+                  name="BulkQuery">false</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Devart.SSIS.Salesforce.SalesforceSource, Devart.SSIS.Salesforce.130, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09af7300eec23701</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Devart Salesforce Source.Connections[SalesforceConnectionManager]"
+                  description="Devart Connection Manager for Salesforce connections"
+                  name="SalesforceConnectionManager" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Devart Salesforce Source.Outputs[Source Output]"
+                  name="Source Output">
+                  <externalMetadataColumns
+                    isUsed="True" />
+                </output>
+              </outputs>
+            </component>
           </components>
         </pipeline>
       </DTS:ObjectData>
@@ -178,6 +227,10 @@
           Size="218,42"
           Id="Package\Data Flow Task\Devart Salesforce Destination"
           TopLeft="240,93" />
+        <NodeLayout
+          Size="197,42"
+          Id="Package\Data Flow Task\Devart Salesforce Source"
+          TopLeft="686,108" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
